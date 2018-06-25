@@ -4,7 +4,7 @@
 
 This is a simple memory game built to test users memory by using a deck of cards with different icons.
 
-![gameSnippet](img/gameSnippet.png)
+![gameSnippet](concentration-game/img/gameSnippet.png)
 
 ### *<u>How to Play:</u>*
 
