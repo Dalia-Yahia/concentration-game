@@ -2,18 +2,18 @@
 
 ### <u>*What is the Match...Match Game?*</u>
 
-This is a simple memory game built to test users memory by using a deck of cards with different icons.
+This is a simple memory game built to test user's memory by using a deck of cards with different icons.
 
 ![gameSnippet](https://github.com/Dalia-Yahia/concentration-game/blob/master/img/gameSnippet.PNG)
 
 ### *<u>How to Play:</u>*
 
-Match cards in less time with less moves.
+Try to Match cards in less time with less moves.
 
 ### *<u>Instructions:</u>*
 
 - Click on a card
-- Keep revealing cards and working your memory to remember each unveiled card.
+- Keep clicking the cards and work your memory to remember each unveiled card.
 - Match cards properly with less moves and in faster time.
 
 ### <u>*How did I build the Concentration Game:*</u>
