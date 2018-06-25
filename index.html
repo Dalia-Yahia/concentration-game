@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="a simple concentration game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Arapey|Courgette">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Match...Match</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fas fa-star"></i></li>
+        		<li><i class="fas fa-star"></i></li>
+        		<li><i class="fas fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves"> </span> Move(s)
+
+            <div class="timer">
+            </div>
+
+            <div class="restart">
+        		<i class="fas fa-redo"></i>
+        	</div>
+        </section>
+
+        <ul class="deck" id="card-deck">
+        </ul>
+
+        <div id="popupContainer" class="overlayer">
+            <div class="popup">
+                <h2> You Win 🎉</h2>
+                <a class="close" href=# >×</a>
+                <div class="message">
+                    <p>You made <span id="finalMoves"> </span> moves </p>
+                    <p>in <span  id="timing">   </span> </p>
+                    <p>Rating:  <span id="finalRating"></span></p>
+                </div>
+                <button id="replay">
+                    Play again 😄</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
